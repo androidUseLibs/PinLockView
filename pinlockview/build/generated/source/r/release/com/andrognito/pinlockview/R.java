@@ -2008,18 +2008,19 @@ containing a value of this type.
         public static int dot_empty=0x7f020053;
         public static int dot_filled=0x7f020054;
         public static int ic_backspace=0x7f020055;
-        public static int notification_action_background=0x7f020056;
-        public static int notification_bg=0x7f020057;
-        public static int notification_bg_low=0x7f020058;
-        public static int notification_bg_low_normal=0x7f020059;
-        public static int notification_bg_low_pressed=0x7f02005a;
-        public static int notification_bg_normal=0x7f02005b;
-        public static int notification_bg_normal_pressed=0x7f02005c;
-        public static int notification_icon_background=0x7f02005d;
-        public static int notification_template_icon_bg=0x7f020060;
-        public static int notification_template_icon_low_bg=0x7f020061;
-        public static int notification_tile_bg=0x7f02005e;
-        public static int notify_panel_notification_icon_bg=0x7f02005f;
+        public static int key_filled=0x7f020056;
+        public static int notification_action_background=0x7f020057;
+        public static int notification_bg=0x7f020058;
+        public static int notification_bg_low=0x7f020059;
+        public static int notification_bg_low_normal=0x7f02005a;
+        public static int notification_bg_low_pressed=0x7f02005b;
+        public static int notification_bg_normal=0x7f02005c;
+        public static int notification_bg_normal_pressed=0x7f02005d;
+        public static int notification_icon_background=0x7f02005e;
+        public static int notification_template_icon_bg=0x7f020061;
+        public static int notification_template_icon_low_bg=0x7f020062;
+        public static int notification_tile_bg=0x7f02005f;
+        public static int notify_panel_notification_icon_bg=0x7f020060;
     }
     public static final class id {
         public static int action0=0x7f0a005f;

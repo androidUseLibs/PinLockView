@@ -92,6 +92,10 @@
         "source": "/Users/husongzhen/Documents/other/PinLockView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
+        "merged": "/Users/husongzhen/Documents/other/PinLockView/app/build/intermediates/res/merged/debug/drawable/key_filled.xml",
+        "source": "/Users/husongzhen/Documents/other/PinLockView/app/build/intermediates/exploded-aar/com.andrognito.pinlockview/pinlockview/2.1.0/res/drawable/key_filled.xml"
+    },
+    {
         "merged": "/Users/husongzhen/Documents/other/PinLockView/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/Users/husongzhen/Documents/other/PinLockView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_clear_material.xml"
     },

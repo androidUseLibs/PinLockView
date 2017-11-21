@@ -7,6 +7,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
+import com.andrognito.pinlockview.ui.UIIndicatorDots;
+
 /**
  * Represents a numeric lock view which can used to taken numbers as input.
  * The length of the input can be customized using {@link PinLockView#setPinLength(int)}, the default value being 4
@@ -29,7 +31,7 @@ public class PinLockView extends RecyclerView {
     private Drawable mDeleteButtonDrawable;
     private boolean mShowDeleteButton;
 
-    private IndicatorDots mIndicatorDots;
+    private UIIndicatorDots mIndicatorDots;
     private PinLockAdapter mAdapter;
     private PinLockListener mPinLockListener;
     private CustomizationOptionsBundle mCustomizationOptionsBundle;
@@ -426,7 +428,7 @@ public class PinLockView extends RecyclerView {
      *
      * @param mIndicatorDots the view to attach
      */
-    public void attachIndicatorDots(IndicatorDots mIndicatorDots) {
+    public void attachIndicatorDots(UIIndicatorDots mIndicatorDots) {
         this.mIndicatorDots = mIndicatorDots;
     }
 }

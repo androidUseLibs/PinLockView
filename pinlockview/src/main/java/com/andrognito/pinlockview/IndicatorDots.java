@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.andrognito.pinlockview.ui.UIIndicatorDots;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
@@ -19,7 +21,7 @@ import java.lang.annotation.RetentionPolicy;
  * <p>
  * Created by aritraroy on 01/06/16.
  */
-public class IndicatorDots extends LinearLayout {
+public class IndicatorDots extends LinearLayout implements UIIndicatorDots {
 
     @IntDef({IndicatorType.FIXED, IndicatorType.FILL, IndicatorType.FILL_WITH_ANIMATION})
     @Retention(RetentionPolicy.SOURCE)
@@ -100,7 +102,8 @@ public class IndicatorDots extends LinearLayout {
         }
     }
 
-    void updateDot(int length) {
+    @Override
+    public void updateDot(int length) {
         if (mIndicatorType == 0) {
             if (length > 0) {
                 if (length > mPreviousLength) {
@@ -152,6 +155,7 @@ public class IndicatorDots extends LinearLayout {
         return mPinLength;
     }
 
+    @Override
     public void setPinLength(int pinLength) {
         this.mPinLength = pinLength;
         removeAllViews();
